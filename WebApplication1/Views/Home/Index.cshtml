@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+@*    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <h3>Azure PubSub PaaS and .NET Core Async/Await</h3>
+            </div>
+            <div class="col-3">
+                <h5>Async/Await logging/events</h5> 
+               
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-9">
+
+                <iframe src="https://localhost:7086/swagger/index.html" style="width:100%;height:800px"></iframe>
+        </div>
+            <div class="col-3">
+                <input type="button" value="Clear Notification Events" onclick="doClear()" />
+
+           
+                    <div style="text-align:left !important;margin-left:20%" id="content">
+                    </div>
+      
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+
+        var ws = new WebSocket("@ViewBag.ClientConnection");
+
+        function doClear(){
+
+            $("#content").html("");
+
+        }
+        ws.onmessage = (msg) => {
+           // alert(msg.data);
+            console.log(msg.data);
+            var content =  $("#content").html();
+
+            $("#content").html(content+"<br>"+ msg.data);
+
+
+};
+    </script>
+
+</div>
+<script>
+
+
+</script>
