@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RIxpj94zBXcLSd0+IN61styfWoKpquiU5yLdM7go/rabdnh9S+XPqshH//z19N8/HLlXvcRo4gjijdzG3Vqn1Q==",
+  "dgSpecHash": "ZuEjs0HvnZpomA35MbMdUbXrOM+uTPC294W+TnIMwmrAos1eH347nim9QVUfzoOhdjlW1WOo6qgiJEanSE4BbQ==",
   "success": true,
-  "projectFilePath": "D:\\xfer_current\\mnb_github\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\walkthroughs\\.NETDevelopment\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\michn\\.nuget\\packages\\azure.core\\1.21.0\\azure.core.1.21.0.nupkg.sha512",
     "C:\\Users\\michn\\.nuget\\packages\\azure.messaging.webpubsub\\1.0.0\\azure.messaging.webpubsub.1.0.0.nupkg.sha512",

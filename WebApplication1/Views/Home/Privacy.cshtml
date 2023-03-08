@@ -13,6 +13,12 @@
 <p>
     <strong>Origin of this effort was: </strong><br />
     -desiring to review latest .NET 6.0/7.0 Async/Await functionality.<br />
-    -and wanting to have a look at Azure PaaS Pub/Sub as part of my exploring Dapr.
-
+    -wanting to have a look at Azure PaaS Pub/Sub as part of my exploring Dapr and current state of Azure PaaS messaging services.<br />
+    -specifically, this work is an extension of the Microsoft Learn example on <a target="_blank" href="https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/">Asynchronous Programming.</a>
+</p>
+<p>
+    <strong>What the Demo Illustrates: </strong><br />
+    1. Uses the Microsoft Learn example of "Preparing Breakfast" (bacon, eggs, toast etc.) to demonstrate "Asynchronous Programming".<br />
+    2. Moves console application code to .NET Core Web API and extends example to include Azure PaaS PubSub service.<br />
+    3. "Publishes" "Breakfast Events" to Azure PubSub where the UI can "subscribe" to these events and emit them via WebSocket to the UI.
 </p>

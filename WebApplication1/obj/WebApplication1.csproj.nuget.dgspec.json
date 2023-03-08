@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\xfer_current\\mnb_github\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\walkthroughs\\.NETDevelopment\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\xfer_current\\mnb_github\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\walkthroughs\\.NETDevelopment\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xfer_current\\mnb_github\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\walkthroughs\\.NETDevelopment\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\xfer_current\\mnb_github\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\walkthroughs\\.NETDevelopment\\async-await-pubsub-dotnet-core\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\michn\\.nuget\\packages\\",
-        "outputPath": "D:\\xfer_current\\mnb_github\\async-await-pubsub-dotnet-core\\WebApplication1\\obj\\",
+        "outputPath": "D:\\walkthroughs\\.NETDevelopment\\async-await-pubsub-dotnet-core\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
